@@ -1,0 +1,46 @@
+.selection {
+
+	position: relative;
+
+	display: block;
+	size: 100% $line-height;
+	overflow: hidden;
+
+	@media $sm {
+		height: auto;
+	}
+
+}
+
+.selection__background {
+
+	position: absolute 0;
+
+	filter: blur(10px);
+	transform: scale(1.1);
+
+	background-color: color(black a(.2));
+	background-blend-mode: multiply;
+	@mixin background-cover;
+
+}
+
+.selection__wrap {
+
+	position: relative;
+
+	display: flex;
+	size: 100%;
+	margin: 0 auto;
+	max-width: calc(1000px + 32px * 2);
+	padding: 0 32px;
+
+	@media $md {
+		padding: 0 16px;
+	}
+	@media $sm {
+		display: block;
+		padding: 52px 12px;
+	}
+
+}

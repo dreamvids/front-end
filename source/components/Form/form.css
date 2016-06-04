@@ -1,0 +1,25 @@
+.form {
+
+	max-width: 500px;
+	margin: 32px auto;
+	padding: 28px 22px;
+
+	background: $light-grey;
+
+}
+
+.form__title {
+
+	margin-bottom: 22px;
+
+	@mixin font title, 18px;
+	@mixin font regular;
+	color: color($light-grey blackness(+35%));
+	text-transform: uppercase;
+
+}
+
+.form .btn {
+	display: block;
+	margin: 16px 0 0 0;
+}

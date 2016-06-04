@@ -1,0 +1,40 @@
+.thumbnail__content {
+
+	position: relative;
+	padding: 4px 6px;
+
+}
+
+.thumbnail__title {
+
+	display: block;
+	width: 100%;
+	overflow: hidden;
+
+	@mixin font bold;
+	font-size: 16px;
+
+}
+
+.thumbnail__legend {
+
+	@mixin font light;
+	font-size: 14px;
+
+	b {
+		@mixin font bold;
+	}
+
+}
+
+.thumbnail__additional {
+
+	position: absolute auto 0 0 auto;
+
+	@mixin font light;
+
+}
+.thumbnail__additional img {
+	size: 10px;
+	margin: 0 4px 0 0;
+}

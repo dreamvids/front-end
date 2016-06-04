@@ -1,0 +1,61 @@
+.form label {
+
+	display: block;
+	margin-top: 12px;
+
+	@mixin font title, 15px;
+	@mixin font light;
+	color: color($grey blackness(+20%));
+
+}
+
+
+.form textarea,
+.form input:not(.btn),
+.form select {
+
+	display: block;
+	margin: 4px 0 12px 0;
+
+}
+
+.form textarea,
+.form input:not(.btn) {
+
+	padding: 8px 10px;
+	width: 100%;
+
+	background: white;
+	border: 1px solid color($grey lightness(+25%));
+	transition: border-color .12s;
+
+	&:focus {
+		outline: none;
+		border-color: $primary;
+	}
+
+}
+
+.form textarea {
+	height: 80px;
+	min-height: 80px;
+	resize: vertical;
+}
+
+.form select {
+
+	padding: 8px 10px;
+	width: 100%;
+	height: 32px;
+
+	background: white;
+	border: 1px solid color($grey lightness(+20%));
+	border-radius: 0;
+	transition: border-color .12s;
+
+	&:focus {
+		outline: none;
+		border-color: $primary;
+	}
+
+}

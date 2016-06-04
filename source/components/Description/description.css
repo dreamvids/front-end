@@ -1,0 +1,20 @@
+.description {
+
+	margin: 32px 0;
+
+	@mixin font title, 14px;
+	@mixin font regular;
+	color: color(black lightness(+30%));
+
+}
+
+.description::after {
+
+	content: "";
+	display: block;
+	size: 100% 1px;
+	margin: 28px 0 16px 0;
+
+	background: color($grey lightness(+15%));
+
+}

@@ -1,0 +1,29 @@
+.uploader {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	size: 100% 360px;
+
+	@mixin background-cover;
+
+}
+
+.uploader__box {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	size: 100% 260px;
+	max-width: 600px;
+	margin: auto;
+	padding: 0 32px;
+	text-align: center;
+
+	@mixin font title, 16px;
+	color: white;
+	text-transform: uppercase;
+
+	background: color($primary a(.8));
+
+}

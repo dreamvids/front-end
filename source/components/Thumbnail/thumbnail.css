@@ -1,0 +1,11 @@
+.thumbnail {
+
+	display: flex;
+	flex-direction: column;
+	size: 100%;
+
+	@mixin font title, 15px;
+	color: color(black lightness(+10%));
+	text-decoration: none;
+
+}

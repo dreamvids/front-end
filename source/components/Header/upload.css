@@ -1,0 +1,43 @@
+.header__upload {
+
+	padding: 14px 18px;
+
+	background: $primary;
+	cursor: pointer;
+
+	@mixin font title, 12px;
+	@mixin font light;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+
+	transition: background-color .12s;
+
+	&:focus,
+	&:hover {
+		background: color($primary lightness(+10%));
+	}
+	&:active {
+		background: color($primary blackness(+5%));
+	}
+
+}
+
+.header__upload img {
+
+	size: 24px;
+	margin: 0 8px 2px 0;
+	vertical-align: middle;
+
+	@media $sm {
+		margin-right: 0;
+	}
+
+}
+
+.header__upload p {
+	display: inline-block;
+	@media $sm {
+		display: none;
+	}
+}

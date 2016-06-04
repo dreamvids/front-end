@@ -1,0 +1,32 @@
+.drawer__list {
+	margin: 22px 0;
+}
+
+.drawer__list li a {
+
+	position: relative;
+
+	display: block;
+	padding: 10px 0 10px 25px;
+	
+	@mixin font title, 13px;
+	@mixin font light;
+	text-transform: uppercase;
+	color: $dark-grey;
+	text-decoration: none;
+
+	&.-active {
+		@mixin font bold;
+	}
+
+}
+
+.drawer__list li img {
+
+	position: absolute 9px auto auto 0;
+
+	display: inline-block;
+	size: 16px;
+	vertical-align: middle;
+
+}

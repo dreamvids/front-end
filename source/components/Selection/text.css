@@ -1,0 +1,28 @@
+.selection__text {
+
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	@mixin font title, 15px;
+	@mixin font light;
+	color: white;
+
+	@media $sm {
+		max-width: 500px;
+		margin: 32px auto 0 auto;
+	}
+
+}
+
+.selection__text__title {
+
+	font-size: 17px;
+	text-transform: uppercase;
+
+}
+
+.selection__text p {
+	margin-top: 12px;
+}

@@ -1,0 +1,30 @@
+.thumbnail-container {
+
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 16px 0;
+
+	@media $xs {
+		justify-content: space-around;
+	}
+
+}
+
+.thumbnail-container > span {
+
+	display: block;
+	flex: 0 0 24%;
+	height: 180px;
+	margin: 12px 0;
+
+	@media $sm {
+		flex: 0 0 48%;
+	}
+
+	@media $xs {
+		flex: 0 0 300px;
+	}
+
+}

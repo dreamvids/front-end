@@ -1,0 +1,25 @@
+.drawer__title {
+
+	display: flex;
+	margin: 16px 0;
+
+	@mixin font title, 13px;
+	@mixin font regular;
+	text-transform: uppercase;
+	color: $blue;
+
+}
+
+.drawer__title__btn {
+
+	size: 14px;
+	cursor: pointer;
+
+	&:first-of-type {
+		margin-left: auto;
+	}
+	&:not(:first-of-type) {
+		margin-left: 6px;
+	}
+
+}

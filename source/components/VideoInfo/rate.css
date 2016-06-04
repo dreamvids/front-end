@@ -1,0 +1,25 @@
+.video-info__rate {
+
+	text-align: right;
+	padding-top: 4px;
+
+}
+
+.video-info__views {
+	@mixin font title, 18px;
+	@mixin font light;
+}
+
+
+.video-info__stars {
+	margin-top: 6px;
+}
+
+.video-info__stars img {
+	
+	size: 16px;
+	margin-left: 4px;
+
+	cursor: pointer;
+
+}

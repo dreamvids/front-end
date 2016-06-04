@@ -1,0 +1,32 @@
+.page {
+
+	position: relative;
+
+	display: flex;
+
+	background: white;
+
+	@media $sm {
+		display: block;
+	}
+
+}
+
+.page__content {
+	flex: 1;
+}
+
+.page__content__wrap {
+
+	max-width: calc(1000px + 32px * 2);
+	padding: 16px 32px;
+	margin: auto;
+
+	@media $md {
+		padding: 16px 16px;
+	}
+	@media $sm {
+		padding: 16px 12px;
+	}
+
+}

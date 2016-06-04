@@ -1,0 +1,15 @@
+html,
+body {
+
+	size: 100%;
+	margin: 0;
+	padding: 0;
+
+	background: $light-grey;
+
+}
+
+body {
+	@mixin font title, 16px;
+	line-height: 1.3;
+}

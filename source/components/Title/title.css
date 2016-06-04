@@ -1,0 +1,31 @@
+.title {
+
+	width: 100%;
+	margin: 24px auto;
+
+	@mixin font title, 17px;
+	@mixin font regular;
+	color: $primary;
+	text-transform: uppercase;
+
+	border-bottom: 1px solid color($light-grey blackness(+15%));
+
+	&.title--small {
+		max-width: 500px;
+	}
+
+	@media $sm {
+		margin: 16px auto;
+	}
+
+}
+
+.title span {
+
+	display: inline-block;
+	margin-bottom: -1px;
+	padding-bottom: 5px;
+
+	border-bottom: 1px solid $primary;
+
+}

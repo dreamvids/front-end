@@ -1,0 +1,46 @@
+.drawer {
+
+	display: block;
+	flex: 0 1 $drawer-width;
+	overflow: hidden;
+	padding: 20px 22px;
+
+	background: $light-grey;
+	transition: .12s;
+
+	@media $md {
+		margin-left: -$drawer-width;
+	}
+
+	@media $sm {
+
+		position: absolute 0 auto 0 0;
+		z-index: 9;
+
+
+		width: $drawer-width;
+
+	}
+
+}
+
+.drawer--open {
+	margin-left: 0;
+}
+
+.drawer-overlay {
+
+	position: absolute 0;
+	z-index: 8;
+
+	display: none;
+
+	background:	color(black a(.4));
+
+}
+
+@media $sm {
+	.drawer--open + .drawer-overlay {
+		display: block;;
+	}
+}

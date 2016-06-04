@@ -1,0 +1,5 @@
+{
+  "name": "Uploader",
+  "main": "Uploader.jsx",
+  "private": true
+}

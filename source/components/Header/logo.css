@@ -1,0 +1,32 @@
+.header__logo {
+
+	display: block;
+	height: 100%;
+	padding: 10px;
+	flex: 0 1 $drawer-width;
+	
+	background: $primary;
+
+	transition: background-color .12s;
+	
+	&:focus,
+	&:hover {
+		background: color($primary lightness(+10%));
+	}
+	&:active {
+		background: color($primary blackness(+5%));
+	}
+
+	@media $md {
+		flex: 0 1 calc($drawer-width - $header-height);;
+	}
+
+}
+
+.header__logo img {
+
+	display: block;
+	height: 100%;
+	margin: auto;
+
+}

@@ -1,0 +1,15 @@
+$font-family-title: "RobotoDraft", sans-serif;
+
+@font-face {
+	font-family: "RobotoDraft";
+	font-style: normal;
+	font-weight: 400;
+	src: local("RobotoDraft"), url(../fonts/roboto-regular.woff) format("woff");
+}
+
+@font-face {
+	font-family: "RobotoDraft";
+	font-style: normal;
+	font-weight: 300;
+	src: local("RobotoDraft Light"), local("RobotoDraft-Light"), url(../fonts/roboto-light.woff) format("woff");
+}

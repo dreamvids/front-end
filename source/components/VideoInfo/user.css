@@ -1,0 +1,42 @@
+.video-info__user {
+
+	display: flex;
+
+	text-decoration: none;
+	color: black;
+
+}
+
+.video-info__user__img {
+
+	display: inline-block;
+	size: 58px;
+	margin-right: 12px;
+
+	@mixin background-cover;
+
+}
+
+.video-info__user__name {
+
+	display: inline-block;
+	margin-top: 9px;
+
+	color: $primary;
+
+}
+
+.video-info__user__desc {
+
+	display: block;
+	margin-top: 01px;
+
+	@mixin font light;
+	color: $grey;
+
+	b {
+		@mixin font regular;
+		color: black;
+	}
+
+}

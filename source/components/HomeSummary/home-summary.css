@@ -1,0 +1,15 @@
+.home-summary {
+
+	position: relative;
+
+	display: block;
+	size: 100% $line-height;
+	overflow: hidden;
+
+	@mixin background-cover;
+
+	@media $sm {
+		height: $line-height-sm;
+	}
+
+}

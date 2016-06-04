@@ -1,0 +1,57 @@
+.uploader__img {
+	size: 58px;
+}
+
+.uploader__title {
+
+	margin-top: 12px;
+
+	@mixin font regular;
+	font-size: 16px;
+
+}
+
+.uploader__subtitle {
+
+	margin-top: 4px;
+
+	@mixin font light;
+	font-size: 14px;
+
+}
+
+.uploader__input {
+
+	position: relative;
+	
+	display: block;
+	size: 110px 30px;
+	margin: 16px auto 0 auto;
+	overflow: hidden;
+
+	background: white;
+
+}
+
+.uploader__input input {
+
+	position: absolute 0;
+	z-index: 1;
+
+	opacity: 0;
+
+}
+
+.uploader__input label {
+
+	position: absolute 0;
+	z-index: 2;
+
+	@mixin font title, 12px;
+	@mixin font regular;
+	color: $primary;
+	line-height: 30px;
+
+	cursor: pointer;
+
+}

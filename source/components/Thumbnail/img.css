@@ -1,0 +1,10 @@
+.thumbnail__img {
+
+	flex: 1;
+	margin-bottom: 3px;
+
+	border-radius: 4px;
+	background-color: black;
+	@mixin background-cover;
+
+}

@@ -1,0 +1,54 @@
+.header__user {
+
+	display: block;
+	height: 100%;
+	padding: 12px 26px;
+
+	cursor: pointer;
+
+	@mixin font title, 12px;
+	@mixin font light;
+	text-transform: uppercase;
+
+	@media $sm {
+		padding: 12px 15px;
+	}
+
+}
+
+.header__user__img {
+
+	display: inline-block;
+	size: 28px;
+	margin: 0 4px 2px 0;
+	vertical-align: middle;
+
+	border: 1px solid black;
+	border-radius: 50%;
+
+	@mixin background-cover;
+
+	@media $sm {
+		margin-right: 0;
+	}
+
+}
+
+.header__user p {
+	display: inline-block;
+	@media $sm {
+		display: none;
+	}
+}
+
+.header__user__arrow {
+
+	size: 6px;
+	margin: 0 0 3px 4px;
+	vertical-align: middle;
+
+	@media $sm {
+		display: none;
+	}
+
+}

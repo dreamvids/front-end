@@ -1,0 +1,33 @@
+.btn {
+
+	position: relative auto;
+	
+	display: inline-block;
+	size: 140px 30px;
+	margin: 10px;
+	overflow: hidden;
+
+	@mixin font title, 13px;
+	@mixin font light;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 26px;
+	
+	background: $primary;
+	cursor: pointer;
+	border: none;
+	user-select: none;
+	border-radius: 2px;
+	transition: background-color .12s;
+
+	&:focus,
+	&:hover {
+		background: color($primary lightness(+5%));
+		outline: none;
+	}
+	&:active {
+		background: color($primary blackness(+5%));
+	}
+
+}
