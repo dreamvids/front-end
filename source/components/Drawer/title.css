@@ -20,8 +20,11 @@ i.drawer__title__btn {
 	&:first-of-type {
 		margin-left: auto;
 	}
+    
 	&:not(:first-of-type) {
 		margin-left: 6px;
+        font-size: 26px;
+        margin-top: -6px;
 	}
     
     &:focus,

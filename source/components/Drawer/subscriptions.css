@@ -1,0 +1,47 @@
+.subscriptions__list {
+	margin: 16px 0;
+}
+
+.subscriptions__list li {
+    list-style: none;
+
+    a {
+
+        display: inline-block;
+        padding: 0;
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 15px;
+    	
+    	@mixin font title, 13px;
+    	@mixin font light;
+    	color: $dark-grey;
+    	text-decoration: none;
+
+    	&.-active {
+    		@mixin font bold;
+    	}
+        
+        &:hover{
+            i{
+                color: color($primary blackness(+5%));
+                transition: color 0.2s;
+            }
+        }
+    }
+    
+    img {
+        border-radius: 50%;
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+    }
+    
+    span{
+        position: absolute;
+        margin-top: 7px;
+        font-size: 13px;
+        color: #b9b9b9;
+        margin-left: 12.5em;
+    }
+}
