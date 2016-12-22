@@ -35,8 +35,8 @@
 @import "../components/Thumbnail/content.css"; 
 @import "../components/Thumbnail/img.css"; 
 @import "../components/Thumbnail/thumbnail.css"; 
-@import "../components/Title/title.css"; 
 @import "../components/ThumbnailContainer/thumbnail-container.css"; 
+@import "../components/Title/title.css"; 
 @import "../components/Uploader/content.css"; 
 @import "../components/Uploader/uploader.css"; 
 @import "../components/VideoInfo/rate.css"; 

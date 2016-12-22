@@ -18,9 +18,23 @@
 	&.-active {
 		@mixin font bold;
 	}
-
+    
+    &:hover{
+        i{
+            color: color($primary blackness(+5%));
+            transition: color 0.2s;
+        }
+    }
+    
+    
+	&:active {
+		i{
+             color: color($primary blackness(+5%);
+             transition: color 0.2s;
+         }
+	}
 }
-
+ 
 .drawer__list li i {
 
 	position: absolute 9px auto auto 0;
