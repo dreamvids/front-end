@@ -23,9 +23,9 @@
 
 }
 
-.header__upload img {
+.header__upload i {
 
-	size: 24px;
+	font-size: 23px;
 	margin: 0 8px 2px 0;
 	vertical-align: middle;
 
@@ -37,6 +37,7 @@
 
 .header__upload p {
 	display: inline-block;
+	
 	@media $sm {
 		display: none;
 	}

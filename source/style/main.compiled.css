@@ -5,6 +5,7 @@
 @import "base/reset";
 @import "base/fonts";
 @import "base/body";
+@import "base/icons";
 
 @import "../components/Button/button.css"; 
 @import "../components/Coms/coms.css"; 
@@ -34,10 +35,10 @@
 @import "../components/Thumbnail/content.css"; 
 @import "../components/Thumbnail/img.css"; 
 @import "../components/Thumbnail/thumbnail.css"; 
-@import "../components/ThumbnailContainer/thumbnail-container.css"; 
 @import "../components/Title/title.css"; 
+@import "../components/ThumbnailContainer/thumbnail-container.css"; 
+@import "../components/Uploader/content.css"; 
+@import "../components/Uploader/uploader.css"; 
 @import "../components/VideoInfo/rate.css"; 
 @import "../components/VideoInfo/user.css"; 
 @import "../components/VideoInfo/video-info.css"; 
-@import "../components/Uploader/content.css"; 
-@import "../components/Uploader/uploader.css"; 

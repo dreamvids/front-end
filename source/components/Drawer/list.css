@@ -21,12 +21,12 @@
 
 }
 
-.drawer__list li img {
+.drawer__list li i {
 
 	position: absolute 9px auto auto 0;
 
 	display: inline-block;
-	size: 16px;
 	vertical-align: middle;
-
+	top: 3px;
+	font-size: 23px;
 }

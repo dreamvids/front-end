@@ -10,16 +10,23 @@
 
 }
 
-.drawer__title__btn {
+i.drawer__title__btn {
 
-	size: 14px;
-	cursor: pointer;
-
+    cursor: pointer;
+    font-size: 23px;
+    margin-top: -5px;
+    color: $dark-grey;
+    
 	&:first-of-type {
 		margin-left: auto;
 	}
 	&:not(:first-of-type) {
 		margin-left: 6px;
+	}
+    
+    &:focus,
+	&:hover {
+		color: $blue;
 	}
 
 }

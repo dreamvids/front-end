@@ -30,11 +30,15 @@
 .thumbnail__additional {
 
 	position: absolute auto 0 0 auto;
-
 	@mixin font light;
+    
+    i {
+        position: absolute;
+        margin-top: -4px;
+        margin-left: -20px;
+		color: $blue;
+        
+        font-size: 20px;
+    }
 
-}
-.thumbnail__additional img {
-	size: 10px;
-	margin: 0 4px 0 0;
 }
