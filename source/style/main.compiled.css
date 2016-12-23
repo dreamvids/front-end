@@ -22,13 +22,13 @@
 @import "../components/Footer/footer.css"; 
 @import "../components/Form/form.css"; 
 @import "../components/Form/input.css"; 
-@import "../components/HomeSummary/content.css"; 
-@import "../components/HomeSummary/home-summary.css"; 
 @import "../components/Header/header.css"; 
 @import "../components/Header/logo.css"; 
 @import "../components/Header/search.css"; 
 @import "../components/Header/upload.css"; 
 @import "../components/Header/user.css"; 
+@import "../components/HomeSummary/content.css"; 
+@import "../components/HomeSummary/home-summary.css"; 
 @import "../components/Page/page.css"; 
 @import "../components/Selection/selection.css"; 
 @import "../components/Selection/text.css"; 

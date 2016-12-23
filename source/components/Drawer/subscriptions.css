@@ -18,15 +18,9 @@
     	color: $dark-grey;
     	text-decoration: none;
 
-    	&.-active {
-    		@mixin font bold;
-    	}
-        
         &:hover{
-            i{
-                color: color($primary blackness(+5%));
-                transition: color 0.2s;
-            }
+            color: $blue;
+            transition: color 0.2s;
         }
     }
     
