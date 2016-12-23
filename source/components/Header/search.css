@@ -39,15 +39,14 @@
 }
 
 .header__search__submit {
-
-	size: $header-height;
-
-	border: none;
-	cursor: pointer;
-	background-color: white;
-	background-image: url(../icon-black.png);
-	background-size: 16px;
-	background-repeat: no-repeat;
-	background-position: center center;
+	
+	width: 54px;
+    height: 54px;
+	
+    font-size: 25px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: -15px;
 
 }
