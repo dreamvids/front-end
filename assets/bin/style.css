@@ -1607,6 +1607,14 @@ i.drawer__title__btn:focus,
 	}
 
 }
+@media (max-width:  768px) {
+	.header__logo {
+
+		display: none;
+
+	}
+
+}
 .header__logo img {
 
 	display: block;

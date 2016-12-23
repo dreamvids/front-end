@@ -20,6 +20,10 @@
 	@media $md {
 		flex: 0 1 calc($drawer-width - $header-height);;
 	}
+    
+    @media $sm {
+		display: none;
+	}
 
 }
 

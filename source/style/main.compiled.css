@@ -30,12 +30,12 @@
 @import "../components/HomeSummary/content.css"; 
 @import "../components/HomeSummary/home-summary.css"; 
 @import "../components/Page/page.css"; 
-@import "../components/Selection/selection.css"; 
-@import "../components/Selection/text.css"; 
-@import "../components/Selection/video.css"; 
 @import "../components/Thumbnail/content.css"; 
 @import "../components/Thumbnail/img.css"; 
 @import "../components/Thumbnail/thumbnail.css"; 
+@import "../components/Selection/selection.css"; 
+@import "../components/Selection/text.css"; 
+@import "../components/Selection/video.css"; 
 @import "../components/ThumbnailContainer/thumbnail-container.css"; 
 @import "../components/Title/title.css"; 
 @import "../components/Uploader/content.css"; 
