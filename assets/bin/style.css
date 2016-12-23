@@ -1208,7 +1208,7 @@ body {
 	margin: 5px;
 
 }
-.subscriptions__list.subscriptions--compact a,.subscriptions__list.subscriptions--compact span{
+.subscriptions__list.subscriptions--compact span, .subscriptions__list.subscriptions--compact p {
 
 	display: none
 

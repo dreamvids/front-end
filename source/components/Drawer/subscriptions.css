@@ -10,11 +10,7 @@
             margin: 5px;
         }
         
-        a{
-            display: none
-        }
-        
-        span{
+        span, p {
             display: none
         }
     }
